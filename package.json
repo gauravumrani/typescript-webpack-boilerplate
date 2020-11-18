@@ -1,0 +1,26 @@
+{
+  "name": "typescript-webpack-starter",
+  "version": "1.0.0",
+  "description": "A typescript starter to create web applications",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "typescript",
+    "webpack"
+  ],
+  "author": "gauravumrani@gmail.com",
+  "devDependencies": {
+    "@types/html-webpack-plugin": "^3.2.4",
+    "html-webpack-plugin": "^4.5.0",
+    "ts-loader": "^8.0.11",
+    "typescript": "^4.0.5",
+    "webpack": "^4.32.2",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
